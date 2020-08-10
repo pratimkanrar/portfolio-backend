@@ -11,12 +11,17 @@
 {
   padding-top: 150px !important;
 }
-.link
+.work-link
 {
   font-size: 12px !important;
   color: rgb(0, 0, 0) !important;
+  padding: 1px !important;
 }
 .grid-row
 {
   padding-top: 0px !important;
+}
+.work-cont
+{
+  padding: 1px !important;
 }
