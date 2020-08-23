@@ -29,8 +29,8 @@ export const Works = ({userdata}) => {
                             <Grid.Column textAlign='center'>{work.name}</Grid.Column>
                             <Grid.Column textAlign='center'>{work.description}</Grid.Column>
                             <Grid.Column textAlign='center'>{work.technology}</Grid.Column>
-                            <Grid.Column width={2} textAlign='center' className='work-cont'><a href={work.code} className='work-link'>{work.code}</a></Grid.Column>
-                            <Grid.Column width={2} textAlign='center' className='work-cont'><a href={work.link} className='work-link'>{work.link}</a></Grid.Column>
+                            <Grid.Column width={2} textAlign='center'><a href={work.code} className='work-link'>CODE</a></Grid.Column>
+                            {(work.link!=' - ')?(<Grid.Column textAlign='center'><a href={work.link} className='work-link'>WEBSITE</a></Grid.Column>):(<Grid.Column textAlign='center'> - </Grid.Column>)}
                           </Grid.Row>
                         </Grid>
                       ))}

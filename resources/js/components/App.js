@@ -59,7 +59,7 @@ class App extends Component{
             'description': 'It is a Client side app that provides details about current cases of COVID-19 worldwide made using React js. The app has been deployed at heroku using Express js as the backend framework.',
             'technology': 'React js, Node js',
             'code': 'https://github.com/pratimkanrar/covid19_tracker/',
-            'link': 'https://covid19records.herokuapp.com/'
+            'link': 'https://covid-19-records.herokuapp.com/'
           },
           {
             'name': 'Penetration Testing Tools using Python',
