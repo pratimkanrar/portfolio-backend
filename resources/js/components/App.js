@@ -55,6 +55,13 @@ class App extends Component{
             }
         ],
           'works': [{
+            'name': 'Chess Website',
+            'description': 'It is a chess web app for 1vs1 gameplay made using React js, React dnd, rxjs and chess js. The app has been deployed at github pages.',
+            'technology': 'React js, React dnd, rxjs, chess js',
+            'code': 'https://github.com/pratimkanrar/chessWebsite/',
+            'link': 'https://pratimkanrar.github.io/chessWebsite/'
+          },
+          {
             'name': 'Covid-19 Tracker',
             'description': 'It is a Client side app that provides details about current cases of COVID-19 worldwide made using React js. The app has been deployed at heroku using Express js as the backend framework.',
             'technology': 'React js, Node js',
@@ -76,7 +83,7 @@ class App extends Component{
             'link': ' - '
           }
         ],
-        'skills': ['C++ - Advanced', 'Ethical Hacking - Intermediate', 'Web Application Security - Intermediate', 'React js - Intermediate', 'HTML - Intermediate', 'CSS - Intermediate', 'Javascript - Intermediate', 'Synfony - Beginner', 'Laravel - Intermediate', 'C - Intermediate', 'Python - Beginner', 'Blender - Intermediate', 'PHP - Intermediate', 'Vue js - Beginner'],
+        'skills': ['C++ - Advanced', 'Ethical Hacking - Intermediate', 'Web Application Security - Intermediate', 'React js - Intermediate', 'HTML - Intermediate', 'CSS - Intermediate', 'Javascript - Intermediate', 'Synfony - Beginner', 'Laravel - Intermediate', 'C - Intermediate', 'Python - Beginner', 'Blender - Intermediate', 'PHP - Intermediate', 'Vue js - Beginner', 'QT C++ - Intermediate'],
         'photoURI': 'pratim.jpg'
         }
       }
