@@ -83,7 +83,7 @@ class App extends Component{
             'link': ' - '
           }
         ],
-        'skills': ['C++ - Advanced', 'Ethical Hacking - Intermediate', 'Web Application Security - Intermediate', 'React js - Intermediate', 'HTML - Intermediate', 'CSS - Intermediate', 'Javascript - Intermediate', 'Synfony - Beginner', 'Laravel - Intermediate', 'C - Intermediate', 'Python - Beginner', 'Blender - Intermediate', 'PHP - Intermediate', 'Vue js - Beginner', 'QT C++ - Intermediate'],
+        'skills': ['C++ - Advanced', 'Ethical Hacking - Intermediate', 'Web Application Security - Intermediate', 'React js - Intermediate', 'HTML - Intermediate', 'CSS - Intermediate', 'Javascript - Intermediate', 'Synfony - Beginner', 'Laravel - Intermediate', 'C - Intermediate', 'Python - Beginner', 'Blender - Intermediate', 'PHP - Intermediate', 'Vue js - Beginner', 'QT C++ - Intermediate', 'SQL - Intermediate'],
         'photoURI': 'pratim.jpg'
         }
       }
