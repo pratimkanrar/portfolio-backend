@@ -32,6 +32,10 @@ export const Drawer = ({userdata}) => {
             <Icon name='graduation cap' />
             Qualifications
           </Menu.Item>):<div/>}
+          {(userdata.metas.experience && userdata.metas.experience.length!==0)?(<Menu.Item as='a' href='/experience'>
+            <Icon name='building' />
+            Experience
+          </Menu.Item>):<div/>}
           {(userdata.metas.achievements && userdata.metas.achievements.length!==0)?(<Menu.Item as='a' href='/achievement'>
             <Icon name='winner' />
             Achievements

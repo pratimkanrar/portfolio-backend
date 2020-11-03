@@ -5,6 +5,7 @@ import {Main} from './Main';
 import {Works} from './Works';
 import {Qualification} from './Qualification';
 import {Achievements} from './Achievements';
+import {Experience} from './Experience';
 import {Skills} from './Skills';
 import 'semantic-ui-css/semantic.min.css';
 
@@ -83,6 +84,12 @@ class App extends Component{
             'link': ' - '
           }
         ],
+        'experience': [{
+          'company': 'cadentic',
+          'startdate': '09/05/2020',
+          'enddate': '09/10/2020',
+          'field': 'Web Development Intern'
+        }],
         'skills': ['C++ - Advanced', 'Ethical Hacking - Intermediate', 'Web Application Security - Intermediate', 'React js - Intermediate', 'HTML - Intermediate', 'CSS - Intermediate', 'Javascript - Intermediate', 'Synfony - Beginner', 'Laravel - Intermediate', 'C - Intermediate', 'Python - Beginner', 'Blender - Intermediate', 'PHP - Intermediate', 'Vue js - Beginner', 'QT C++ - Intermediate', 'SQL - Intermediate'],
         'photoURI': 'pratim.jpg'
         }
@@ -98,9 +105,12 @@ class App extends Component{
           ((window.location.href.substring(window.location.href.lastIndexOf('/')+1) == 'achievement')?
           (<Achievements userdata={this.state.userdata}/>):
           ((window.location.href.substring(window.location.href.lastIndexOf('/')+1) == 'skill')?
-            (<Skills userdata={this.state.userdata}/>):
-            (<Main userdata={this.state.userdata}/>)
+          (<Skills userdata={this.state.userdata}/>):
+          ((window.location.href.substring(window.location.href.lastIndexOf('/')+1) == 'experience')?
+          (<Experience userdata={this.state.userdata}/>):
+          (<Main userdata={this.state.userdata}/>)
           )
+        )
         )
         )
         }</>
