@@ -33,7 +33,7 @@ class App extends Component{
           'qualifications': [{
             'name': 'B. Tech.',
             'institution': 'IIEST, Shibpur',
-            'grade': 'CGPA - 8.26 (Upto 4th semester)',
+            'grade': 'CGPA - 8.33 (Upto 6th semester)',
             'startdate': '28/07/2018',
             'enddate': 'Pursuing',
             'field': 'Computer Science & Technology'
@@ -70,10 +70,10 @@ class App extends Component{
             'link': 'https://covid-19-records.herokuapp.com/'
           },
           {
-            'name': 'Penetration Testing Tools using Python',
-            'description': 'It is a bunch of penetration testing tools made using python. The more I learn about penetration testing and cyber security, I’ll go on continuing this project.',
-            'technology': 'Python 2, Python 3',
-            'code': 'https://github.com/pratimkanrar/Hacking_tools/',
+            'name': 'Keylogger using Python',
+            'description': 'It is a keylogger that records and sends all the key presses in the target machine to the specified email address.',
+            'technology': 'Python 3',
+            'code': 'https://github.com/pratimkanrar/keyLogger/',
             'link': ' - '
           },
           {
