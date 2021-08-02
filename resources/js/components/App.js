@@ -63,6 +63,13 @@ class App extends Component{
             'link': 'https://pratimkanrar.github.io/chessWebsite/'
           },
           {
+            'name': 'Image Viewer',
+            'description': 'It is an image viewer and editor application made with Qt C++.',
+            'technology': 'QT C++',
+            'code': 'https://github.com/pratimkanrar/ImageViewer',
+            'link': ' - '
+          },
+          {
             'name': 'Covid-19 Tracker',
             'description': 'It is a Client side app that provides details about current cases of COVID-19 worldwide made using React js. The app has been deployed at heroku using Express js as the backend framework.',
             'technology': 'React js, Node js',
